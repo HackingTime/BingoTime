@@ -1,7 +1,11 @@
 body{
 
-background-color: white;
-color: black;
+  background-color: #000000;
+      margin: 0px;
+      overflow: hidden;
+text-align: center;
+
+color: white;
 font-size: 20px;
 font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
@@ -13,7 +17,11 @@ h1{
 font-size: 28px;
 }
 table{
+  text-align:center;
+      margin-left:auto;
+      margin-right:auto;
 border-collapse: collapse;
+cursor: copy;
 }
 th, td{
 padding: 10px;
@@ -21,10 +29,34 @@ border: 2px #666 solid;
 text-align: center;
 width: 20%;
 }
-#free, .pickedBg{
-background-color: #f66;
+#free {
+background-color: goldenrod;
 }
-.winning Bg {
-background-image: url(images/redFladh.gif)
 
+.pickedBg{
+
+background-color: lightblue;
+
+}
+
+.winningBg {
+background-image: url(images/redFlash.gif)
+
+}
+
+
+
+
+
+#relnum {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: wait;
 }

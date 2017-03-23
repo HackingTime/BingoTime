@@ -73,7 +73,6 @@ var thisSquare = window.event.srcElement;
   if(thisSquare.className == ""){
 
 thisSquare.className = "pickedBg";
-
   }
   else {
     thisSquare.className = "";

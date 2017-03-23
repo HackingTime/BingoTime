@@ -2,8 +2,10 @@
 <head>
 <title> Make your own Bingo Card!</title>
 <link rel="stylesheet" href="script01.css">
-<script type="text/javascript" src="script01.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="script01.js"></script>
+<script type="text/javascript" src="fireworks.js"></script>
+
 </head>
 <body>
 <h1>Create your own Bingo card!</h1>
@@ -53,6 +55,10 @@
     <td id="square23">&nbsp;</td>
   </tr>
 </table>
+
+<button id="relnum" onclick="marquee()">New Number</button>
+<br>
+<br>
 <a href="index.html" id="reload"><button>Reload</button></a>
 
 </body>
