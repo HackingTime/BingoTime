@@ -35,12 +35,12 @@ background-color: goldenrod;
 
 .pickedBg{
 
-background-color: lightblue;
+background-color: #0088FF;
 
 }
 
 .winningBg {
-background-image: url(images/redFlash.gif)
+background-color: green;
 
 }
 

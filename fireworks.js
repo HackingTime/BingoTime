@@ -1,3 +1,7 @@
+function firethefireworks() {
+
+
+
 var SCREEN_WIDTH = window.innerWidth,
     SCREEN_HEIGHT = window.innerHeight,
     mousePos = {
@@ -252,3 +256,5 @@ Rocket.prototype.render = function(c) {
 
     c.restore();
 };
+
+}
