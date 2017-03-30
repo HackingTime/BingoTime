@@ -3,14 +3,19 @@
 <title> Make your own Bingo Card!</title>
  <meta charset="UTF-8">
 <link rel="stylesheet" href="script01.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+
+
+<script src="jquery-3.2.0.min.js"></script>
 
 <script type="text/javascript" src="script01.js"></script>
 <script type="text/javascript" src="fs.js"></script>
 
 
 </head>
-<body>
+<span class="boddy">
+<body id="bingobody" class="hover item-fade">
+
 <h1>Create your own Bingo card!</h1>
 <marquee onclick="marquee()"id="scroll">&nbsp;</marquee>
 <table>
@@ -64,7 +69,8 @@
 <br>
 <a href="index.html" id="reload"><button>Reload</button></a>
 <br>
+<h4 class="hover item-fade">Whoo!</h4>
 
-
+</span>
 </body>
 </html>

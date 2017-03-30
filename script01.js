@@ -1,3 +1,4 @@
+
 window.onload = initAll;
 var useNums = new Array(76);
 function initAll(){
@@ -104,6 +105,8 @@ function checkWin() {
         currSquare = "square" + i;
         document.getElementById(currSquare).className = "winningBg";
         firethefireworks();
+
+
 
 
       }
